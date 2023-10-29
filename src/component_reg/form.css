@@ -1,0 +1,90 @@
+.main-container{  
+  padding:10px; 
+  color:#001144;
+}
+
+.inner-container{
+  width:42%;
+  display:inline-grid;
+}
+
+.output-container{  
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+}
+
+.form-container{
+  /* border: 1px solid #001144; */
+  display: inline-block;
+  padding: 20px;
+  width: 500px;
+  background-color: lightgreen;
+  border-radius: 5px;
+}
+
+.element-container {
+  margin: 10px;
+  min-height:60px;
+}
+
+.element-container > div {
+  display: inline-block;
+  margin-left: 10px;
+  font-size:20px;
+  font-weight: 500;
+}
+
+/* .element-container input{
+  padding: 5px;
+  border-radius: 5px;
+} */
+
+.element-container div:first-child{
+  width: 150px;
+  text-align: right;
+  float: left;
+}
+
+.element-radio span {
+  margin-right: 2px;
+  /* border: 1px dotted #dbdbdb; */
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.element-checkbox span {
+  display: table;
+}
+
+.element-select select{  
+  border-radius: 2px;
+  padding: 5px;
+}
+
+input[type='text'],select,textarea,.inputType{
+  min-width: 250px;
+  min-height: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid white;
+}
+
+textarea{
+  min-height: 70px;  
+}
+
+.btn{
+  background-color:rgb(182, 232, 144);
+  /* color:white; */
+  padding: 10px;
+  border-radius: 5px;
+  margin:10px;
+  font-size: 15px;
+  cursor:pointer
+}
+
+.btn:hover{
+  background-color:rgb(138, 174, 110);
+}

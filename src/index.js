@@ -4,12 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import App_props from './App_props';
+import Registration from './Registration';
+import Topbar from './components/Topbar';
+import ApiCalls from './components/ApiCalls';
+import ApiUsers from './components/ApiUsers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
-    <App_props ></App_props>
+    <Topbar />
+    {/* <App /> */}
+    {/* <App_props ></App_props> */}
+    <Registration />
+    <ApiCalls />
+    <ApiUsers />
   </React.StrictMode>
 );
 

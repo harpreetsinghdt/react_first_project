@@ -1,0 +1,11 @@
+.top-menu {
+  background: lightgrey;
+  padding: 8px;
+}
+
+span.meun-item {
+  padding: 3px 12px;
+  background: #f7f7f7;
+  margin-right: 10px;
+  border-radius: 5px;
+}

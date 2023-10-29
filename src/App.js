@@ -4,7 +4,7 @@ import Test1 from './components/Test1';
 
 function App() {
   
-  return (    
+  return (
     <div>
       <h1>My first reat App Component</h1>
       <Test1 ></Test1>
